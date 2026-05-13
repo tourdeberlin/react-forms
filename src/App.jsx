@@ -2,6 +2,7 @@ import "./App.css";
 import ColorForm from "./ColorForm";
 import LoginForm from "./LoginForm";
 import NameForm from "./NameForm";
+import RegistrationForm from "./RegistrationForm";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NameForm />
       <LoginForm />
       <ColorForm />
+      <RegistrationForm />
     </div>
   );
 }
